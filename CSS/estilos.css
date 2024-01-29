@@ -75,6 +75,8 @@ h3 {
 
 p {
   font-size: 2.5rem;
+  margin: 3%;
+  padding: 3%;
 }
 
 main .presentacion {
@@ -114,6 +116,14 @@ main .descuentos {
   align-content: center;
   justify-content: center;
 }
+main .saleimport {
+  margin: 3%;
+  padding: 2%;
+}
+main section.descuentos {
+  margin: 2%;
+  padding: 1%;
+}
 main .contenedor-grid {
   display: grid;
   grid-template-areas: "frazada1 frazada2 frazada3" "frazada4 frazada5 frazada6";
@@ -146,7 +156,7 @@ main .contenedor-grid img {
   height: 100%;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 240px) {
   .contenedor-grid {
     grid-template-areas: "frazada1" "frazada2" "frazada3" "frazada4" "frazada5" "frazada6";
     grid-template-columns: 95%;
@@ -157,6 +167,15 @@ main .contenedor-grid img {
   }
   nav {
     width: 80%;
+  }
+  .sobrenosotros {
+    width: 50%;
+  }
+  .livingsection {
+    width: 50%;
+  }
+  .section.descuentos {
+    width: auto;
   }
 }
 

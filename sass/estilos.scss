@@ -61,6 +61,8 @@ h3{
 
 p{
     font-size: 2.5rem;
+     margin: 3%;
+    padding: 3%;
 }
 //Presentacion
 main{
@@ -102,6 +104,14 @@ main{
     align-content: center;
     justify-content: center;
 }
+.saleimport{
+    margin: 3%;
+    padding: 2%;
+}
+section.descuentos {
+    margin: 2%;
+    padding: 1%;
+}
         .contenedor-grid {
             display: grid;
             grid-template-areas: 
@@ -138,7 +148,7 @@ main{
         }
 }
     //MediaQ
-    @media only screen and (max-width:480px) {
+    @media only screen and (max-width:240px) {
         .contenedor-grid{
             grid-template-areas: 
             "frazada1"
@@ -156,5 +166,14 @@ main{
         }
         nav{
             width: 80%;
+        }
+        .sobrenosotros{
+            width: 50%;
+        }
+        .livingsection{
+            width: 50%;
+        }
+        .section.descuentos{
+            width: auto;
         }
         }
