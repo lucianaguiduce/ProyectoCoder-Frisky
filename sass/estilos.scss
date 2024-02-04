@@ -61,8 +61,8 @@ h3{
 
 p{
     font-size: 2.5rem;
-     margin: 3%;
-    padding: 3%;
+     margin: 1%;
+    padding: 1%;
 }
 //Presentacion
 main{
@@ -104,12 +104,11 @@ main{
     align-content: center;
     justify-content: center;
 }
-.saleimport{
-    margin: 3%;
-    padding: 2%;
-}
+.conborde{
+    border: 3px dotted $color
+    }
 section.descuentos {
-    margin: 2%;
+    margin: 1%;
     padding: 1%;
 }
         .contenedor-grid {
@@ -122,7 +121,9 @@ section.descuentos {
             justify-items: center;
             row-gap: 6px;
             column-gap: 6px;
+            margin: 1%;
         }
+      
         .grid-img-1{
             grid-area: frazada1;
         }
