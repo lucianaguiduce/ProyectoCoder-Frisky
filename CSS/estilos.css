@@ -156,7 +156,7 @@ main .contenedor-grid img {
   height: 100%;
 }
 
-@media only screen and (max-width: 240px) {
+@media only screen and (max-width: 320px) {
   .contenedor-grid {
     grid-template-areas: "frazada1" "frazada2" "frazada3" "frazada4" "frazada5" "frazada6";
     grid-template-columns: 95%;

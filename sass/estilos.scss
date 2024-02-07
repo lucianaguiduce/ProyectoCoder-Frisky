@@ -149,7 +149,7 @@ section.descuentos {
         }
 }
     //MediaQ
-    @media only screen and (max-width:240px) {
+    @media only screen and (max-width:320px) {
         .contenedor-grid{
             grid-template-areas: 
             "frazada1"
@@ -177,4 +177,11 @@ section.descuentos {
         .section.descuentos{
             width: auto;
         }
+        }
+        @media only screen and (max-width:600px) {
+
+        }
+
+        @media only screen and (max-width:900px){
+
         }
